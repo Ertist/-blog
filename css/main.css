@@ -1,0 +1,112 @@
+nav
+{
+	background: #242424;
+	height: 50px;	
+
+}
+#banner
+{
+	background: #2F4F4F;
+	height: 700px;
+}	
+nav ul
+{
+	margin: 0;
+	float: right;
+
+}
+nav ul li
+{
+	display: inline-block;
+	line-height: 50px;
+	margin: 0 10px;
+
+}
+nav ul li a,  nav .logo a
+{
+	display: inline-block;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+nav .logo
+{
+	line-height: 50px;
+	float: left;
+	margin-left: 40px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+#banner .inner
+{
+	max-width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 160px;
+}
+#banner .inner h1{
+	margin: 0;
+}
+button
+{
+	border-style: none;
+	background: #FF8247;
+	color: #FFFFFF;
+	margin: 20px;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+#banner .intruduce
+{
+	line-height: 30px;
+	margin: 20px;
+}
+#banner .more{
+	margin-top: 200px;
+}
+
+.section-1
+{
+	height: 600px;
+	background: #5CACEE;
+	text-align: center;
+}
+.section-1 h2
+{
+	margin: 0;
+	padding-top: 160px;
+	letter-spacing: 2px;
+}
+.section-1 .hr{
+	background: #6495ED;
+}
+.hr
+{
+	width: 500px;
+	height: 2px;
+	margin: 30px auto;
+}
+.section-1 .s1-head
+{
+	margin: 0 auto; 
+}
+.s2-hp
+{
+	width: 300px;
+	margin: inherit;
+}
+.section-1 .inco-group
+{
+	margin-top: 30px; 
+}
+.section-1 .inco-group .inco a
+{
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	background: #6495ED;
+	transform: rotate(45deg);
+	margin: 30px;
+	text-decoration: none;
+}
