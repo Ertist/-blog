@@ -1,12 +1,63 @@
+/*全局样式*/
+
+body
+{
+	overflow：scroll;overflow-x:hidden;
+}
+.main
+{
+	background: url(../image/header.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header
+{
+	background: rgba(0,52,63,0.8);
+}
 nav
 {
-	background: #242424;
+	background: rgba(1,25,53,1);
 	height: 50px;	
 
 }
+h2
+{
+	margin: 0;
+	padding-top: 160px;
+	letter-spacing: 2px;
+}
+
+button
+{
+	border-style: none;
+	background: #FF8247;
+	color: #FFFFFF;
+	margin: 20px;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.clearfix:after
+{
+	content: '';
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+.section-head
+{
+	margin: 0 auto;
+	width: 600px; 
+	text-align: center;
+}
+
+
+/*header*/
+
 #banner
 {
-	background: #2F4F4F;
+	background: transparent;
 	height: 700px;
 }	
 nav ul
@@ -40,23 +91,24 @@ nav .logo
 #banner .inner
 {
 	max-width: 300px;
+	color: #FFFFFF;
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
 	top: 160px;
 }
+.head-line
+{
+	width: 300px;
+	height: 2px;
+	margin:10px auto;
+	background: #FFFFFF;
+}
 #banner .inner h1{
 	margin: 0;
+	letter-spacing: 6px;
 }
-button
-{
-	border-style: none;
-	background: #FF8247;
-	color: #FFFFFF;
-	margin: 20px;
-	padding: 10px 20px;
-	border-radius: 5px;
-}
+
 #banner .intruduce
 {
 	line-height: 30px;
@@ -66,17 +118,13 @@ button
 	margin-top: 200px;
 }
 
+/*第一区域*/
+
 .section-1
 {
 	height: 600px;
-	background: #5CACEE;
+	background: rgba(29,176,184,0.8);
 	text-align: center;
-}
-.section-1 h2
-{
-	margin: 0;
-	padding-top: 160px;
-	letter-spacing: 2px;
 }
 .section-1 .hr{
 	background: #6495ED;
@@ -87,11 +135,7 @@ button
 	height: 2px;
 	margin: 30px auto;
 }
-.section-1 .s1-head
-{
-	margin: 0 auto; 
-}
-.s2-hp
+.s1-hp
 {
 	width: 300px;
 	margin: inherit;
@@ -109,4 +153,148 @@ button
 	transform: rotate(45deg);
 	margin: 30px;
 	text-decoration: none;
+}
+
+
+/*第二区域*/
+
+.section-2
+{
+	background: rgba(55,198,192,0.3);
+	color: #FFFFFF;
+}
+.s2-article > div
+{
+	float: left;
+}
+.s2-article:nth-child(odd)
+{
+	background: rgba(255,255,255,0.2);
+}
+.section-2 .img-section
+{
+	width: 45%;
+	font-size: 0;
+}
+.img-section img
+{
+	width: 100%;
+
+}
+.s2-article .text-section
+{
+	 width: 55%;
+}
+.text-section
+{
+	position: relative;
+    top: 60px;
+    left: 80px;
+}
+.section-2 .text-section h2
+{
+	padding-top: 20px; 
+	margin-bottom: 30px;
+}
+.section-2 .text-section > *
+{
+	max-width: 80%;
+	
+}
+
+
+/*第三区域*/
+
+.section-3
+{
+	background: rgba(208,233,255,0.8);
+	padding-bottom: 30px;
+}
+.section-3 p
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.card-group
+{
+	width: 600px;
+	margin: 0 auto;
+}
+.card
+{
+	float: left;
+	width: 50%;
+	min-height: 200px;
+	padding-top: 20px;
+	padding-left: 30px; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+.card:first-child
+{
+	background: rgba(0,0,0,0.04);
+}
+.card:nth-child(2)
+{
+	background: rgba(0,0,0,0.08);
+}
+.card:nth-child(3)
+{
+	background: rgba(0,0,0,0.12);
+}
+.card:nth-child(4)
+{
+	background: rgba(0,0,0,0.16);
+}
+.card:nth-child(5)
+{
+	background: rgba(0,0,0,0.2);
+}
+.card:nth-child(6)
+{
+	background: rgba(0,0,0,0.24);
+}
+.card:nth-child(7)
+{
+	background: rgba(0,0,0,0.28);
+}
+.card:nth-child(8)
+{
+	background: rgba(0,0,0,0.32);
+}
+
+
+/*页脚*/
+
+footer
+{
+	background: #363834;
+	color: #FFFFFF;
+	min-height: 200px;
+}
+ul.share-group
+{
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+.share-group li
+{
+	display: inline-block;
+	padding: 30px;
+	margin-top: 20px;
+}
+.share-group li a
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+footer p
+{
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: 40px;
+	font-size: 12px;
 }
