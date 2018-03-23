@@ -2,7 +2,8 @@
 
 body
 {
-	overflow：scroll;overflow-x:hidden;
+	overflow:scroll;
+	overflow-x:hidden;
 }
 .main
 {
@@ -13,7 +14,7 @@ body
 }
 header
 {
-	background: rgba(0,52,63,0.8);
+	background: rgba(0,52,63,0.3);
 }
 nav
 {
@@ -70,8 +71,13 @@ nav ul li
 {
 	display: inline-block;
 	line-height: 50px;
-	margin: 0 10px;
+	margin: 0;
+	padding: 0 10px 0 10px;
 
+}
+nav ul li:hover
+{
+	background: rgba(0,0,0,0.8);
 }
 nav ul li a,  nav .logo a
 {
@@ -297,4 +303,44 @@ footer p
 	position: relative;
 	top: 40px;
 	font-size: 12px;
+}
+#mask
+{
+	display: none;
+	position: fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background: rgba(0,0,0,0.3);
+}
+#asidebar
+{
+	width: 300px;
+	background: #363834;
+	position: fixed;
+	top:0;
+	right:-300px;
+	bottom:0;
+	transition: 0.5s;
+
+}
+#asidebar ul
+{
+	margin-top: 45px;
+	list-style: none;
+	padding: 0;
+}
+#asidebar ul a
+{
+	display: inline-block;
+	color: #FFFFFF;
+	text-decoration: none;
+	width: 100%;
+	padding: 20px;
+	padding-left: 60px;
+}
+#asidebar ul a:hover
+{
+	background: #444;
 }
