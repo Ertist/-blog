@@ -344,3 +344,14 @@ footer p
 {
 	background: #444;
 }
+.return-top
+{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    background: cornflowerblue;
+    color: #FFFFFF;
+    border: solid 2px #FFFFFF;
+    border-radius: 0;
+    display: none;
+}
